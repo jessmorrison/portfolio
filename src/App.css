@@ -46,16 +46,16 @@ body {
 .JM__animated--line__TT {
   position: absolute;
   top:50%;
-  left: -300px;
+  left: -334px;
   z-index: 1;
   background-color: grey;
   height:1px;
-  width:300px;
-  animation-duration: 9s;
+  width:333px;
+  animation-duration: 3.999s;
   animation-name: line-left-to-right-1;
   animation-iteration-count: infinite;
     
-  -moz-animation-duration: 9s;
+  -moz-animation-duration: 3.999s;
   -moz-animation-name: line-left-to-right-1;
   -moz-animation-iteration-count: infinite;
 }
@@ -67,11 +67,11 @@ body {
 
 @keyframes line-left-to-right-1 {
   from {
-    -webkit-transform: translate(0,0);
+    -webkit-transform: translate(-1,0);
   }
 
   to {
-    -webkit-transform: translate(1920px,0);
+    -webkit-transform: translate(3841px,0);
   }
 }
 
@@ -81,6 +81,6 @@ body {
   }
 
   to {
-    -moz-transform: translate(1920px,0);
+    -moz-transform: translate(3841px,0);
   }
 }
