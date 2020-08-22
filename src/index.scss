@@ -1,0 +1,73 @@
+$JM__black: #090909;
+$JM__white: #909090;
+
+.App-header {
+  background-color: $JM__black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+
+.JM__animated--line__TT {
+  background-color: $JM__white;
+  display: block;
+  height:1px;
+  margin-left: -4507px;
+  z-index: 1;
+  width: 169.3px;
+
+  animation-duration: 9.366s;
+  animation-name: JM__line-left-to-right-1;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+    
+  -moz-animation-duration: 3.999s;
+  -moz-animation-name: JM__line-left-to-right-1;
+  -moz-animation-iteration-count: infinite;
+  -moz-transition-timing-function: linear;
+  
+  
+  
+}
+
+.JM__title--treatment {
+  color: $JM__white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.33em;
+  position: absolute;
+  z-index:9999;
+}
+
+@keyframes JM__line-left-to-right-1 {
+  from {
+    -webkit-transform: translate(-1px,0);
+  }
+
+  to {
+    -webkit-transform: translate(3841px,0);
+  }
+}
+
+@-moz-keyframes JM__line-left-to-right-1 {
+  from {
+    -moz-transform: translate(0,0);
+  }
+
+  to {
+    -moz-transform: translate(3841px,0);
+  }
+}
+
+
+
