@@ -22,17 +22,17 @@ body {
 .JM__animated--line__TT {
   background-color: $JM__white;
   display: block;
-  height:1px;
-  margin-left: -4507px;
+  height:3px;
+  margin-left: -5209px;
   z-index: 1;
-  width: 169.3px;
+  width: 1369px;
 
-  animation-duration: 9.366s;
+  animation-duration: 9.369s;
   animation-name: JM__line-left-to-right-1;
   animation-iteration-count: infinite;
   transition-timing-function: linear;
     
-  -moz-animation-duration: 3.999s;
+  -moz-animation-duration: 3.369s;
   -moz-animation-name: JM__line-left-to-right-1;
   -moz-animation-iteration-count: infinite;
   -moz-transition-timing-function: linear;
@@ -41,13 +41,66 @@ body {
   
 }
 
-.JM__title--treatment {
-  color: $JM__white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 3.33em;
-  position: absolute;
-  z-index:9999;
+.JM__animated--line__TT--Black {
+  background-color: $JM__black;
+  display: block;
+  height:2.369px;
+  margin-left: -5211px;
+  width: 1369px;
+  z-index: 9999;
+
+  animation-duration: 9.369s;
+  animation-iteration-count: infinite;
+  animation-name: JM__line-left-to-right-1;
+  transition-timing-function: linear;
+    
+  -moz-animation-duration: 3.369s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-name: JM__line-left-to-right-1;
+  -moz-transition-timing-function: linear;
 }
+
+.JM__title--treatment__v1 {
+  color: $JM__white;
+  font-family: 'Alata', sans-serif;
+  font-size: 9.999em;
+  margin-top:-30px;
+  position: absolute;
+  word-break: break-word;
+  z-index:999;
+
+
+  animation-duration: 6s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+  animation-name: JM__title--treatment__v1--opacity;
+  transition-timing-function: linear;
+ 
+}
+
+
+
+
+
+@keyframes JM__title--treatment__v1--zoom {
+  from {
+    font-size: 90em;
+  }
+  to {
+    font-size:3.369em;
+  }
+}
+
+@keyframes JM__title--treatment__v1--opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .963;
+  }
+}
+
+
 
 @keyframes JM__line-left-to-right-1 {
   from {
@@ -55,7 +108,7 @@ body {
   }
 
   to {
-    -webkit-transform: translate(3841px,0);
+    -webkit-transform: translate(5211px,0);
   }
 }
 
@@ -65,7 +118,7 @@ body {
   }
 
   to {
-    -moz-transform: translate(3841px,0);
+    -moz-transform: translate(5211px,0);
   }
 }
 
