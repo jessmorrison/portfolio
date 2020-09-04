@@ -19,7 +19,7 @@ body {
 }
 
 
-.JM__animated--line__TT {
+/*.JM__animated--line__TT {
   background-color: $JM__white;
   display: block;
   height:3px;
@@ -36,10 +36,7 @@ body {
   -moz-animation-name: JM__line-left-to-right-1;
   -moz-animation-iteration-count: infinite;
   -moz-transition-timing-function: linear;
-  
-  
-  
-}
+}*/
 
 .JM__animated--line__TT--Black {
   background-color: $JM__black;
@@ -48,13 +45,13 @@ body {
   margin-left: -5211px;
   width: 1369px;
   z-index: 9999;
-
+  animation-delay: 7s;
   animation-duration: 9.369s;
   animation-iteration-count: infinite;
   animation-name: JM__line-left-to-right-1;
   transition-timing-function: linear;
     
-  -moz-animation-duration: 3.369s;
+  -moz-animation-duration: 9.369s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-name: JM__line-left-to-right-1;
   -moz-transition-timing-function: linear;
@@ -64,7 +61,7 @@ body {
   color: $JM__white;
   font-family: 'Alata', sans-serif;
   font-size: 9.999em;
-  margin-top:-30px;
+  margin-top:-10px;
   position: absolute;
   word-break: break-word;
   z-index:999;
